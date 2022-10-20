@@ -27,10 +27,12 @@ What would you like to do?
 You can go EAST OR SOUTH
 ----
 5
-Hallway
-you finish stairway and get to the hallway. And you see the light to your mom bedroom. she is calling you to come to her
-you began to walk towards that direction.
-You can go SOUTH or NORTH
+Ghoul’s Layer
+You walk through the door to some moss on the
+walls. There is a foul smell within this room. There
+is a door east of you, but it is block by a
+monster. What would you like to do?
+You can go  NORTH or WEST
 ----
 6
 Finish
