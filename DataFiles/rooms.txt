@@ -35,7 +35,9 @@ monster. What would you like to do?
 You can go  NORTH or WEST
 ----
 6
-Finish
-Congratulations!!! You have found your mom.
-You can go NORTH
+Golden Era
+You walk through the door to see a wide room that is filled with moss and some dirt around the room. There is a giant hole in the roof that fills the
+space with light letting you see the door in front of you and some gold coins.
+What would you like to do?
+You can go SOUTH or EAST
 ----
