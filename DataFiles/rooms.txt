@@ -1,0 +1,36 @@
+1
+Living
+You are standing in the living room. there is a tv right in front of you and the couch. there are many things
+to look at throughout the room.
+You can go WEST
+----
+2
+Kitchen
+You have entered a dark, low kitchen that seems to lead to a slightly larger room to the west. Strangely you see a faint
+glow coming from the east.
+You can go EAST or WEST
+----
+3
+Boysroom
+You enter a large room. You are surprised to find that the walls of the room are glowing so you have no problem
+seeing the large superman poster. To the south you hear the sound of drums. To the north you hear
+strange sounds that sound like mom calling. You see as set of stairs at the west end of the room.
+You can go EAST or NORTH or South
+----
+4
+Spooky stairway
+You have entered a dark squeaky stairway, the level above is dark and scary. you can hear the call of your mother
+more clearly now.
+You can go SOUTH
+----
+5
+Hallway
+you finish stairway and get to the hallway. And you see the light to your mom bedroom. she is calling you to come to her
+you began to walk towards that direction.
+You can go SOUTH or NORTH
+----
+6
+Finish
+Congratulations!!! You have found your mom.
+You can go NORTH
+----

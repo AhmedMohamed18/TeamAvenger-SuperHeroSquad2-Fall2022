@@ -1,0 +1,10 @@
+1 North 2
+2 North 1
+2 West 3
+3 East 2
+3 North 4
+3 South 5
+4 South 3
+5 North 3
+5 south 6
+6 North 5
