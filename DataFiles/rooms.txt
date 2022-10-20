@@ -6,10 +6,10 @@ What would you like to do?
 You can go North
 ----
 2
-Kitchen
-You have entered a dark, low kitchen that seems to lead to a slightly larger room to the west. Strangely you see a faint
-glow coming from the east.
-You can go EAST or WEST
+Mummy’s Layer
+You walk through the door, the room is decently
+lit with some moss on the side of the walls. There is door north of you. There is a trail of blood that leads to the monster that is asleep on the right upper corner of the room. What would you like to do?
+You can go NORTH or SOUTH
 ----
 3
 Boysroom
