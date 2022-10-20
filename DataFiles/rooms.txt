@@ -13,7 +13,7 @@ What would you like to do?
 You can go NORTH or SOUTH
 ----
 3
-Shop Keeper 1
+ShopKeeper 1
 Hello there! Welcome to the Shop Keep, I see you made it past the monster there, not a lot of people
 do. Don't worry, nothing can hurt you here. In here,
 you can get information and items for your quest of course for a trade of something, or you can just rest.
@@ -21,10 +21,10 @@ What would you like to do?
 You can go  NORTH or SOUTH or WEST
 ----
 4
-Spooky stairway
-You have entered a dark squeaky stairway, the level above is dark and scary. you can hear the call of your mother
-more clearly now.
-You can go SOUTH
+Fruitful Replenish
+You walk through the door to see a wide room that is filled with moss and vines. There is a door in north of you.
+What would you like to do?
+You can go EAST OR SOUTH
 ----
 5
 Hallway
