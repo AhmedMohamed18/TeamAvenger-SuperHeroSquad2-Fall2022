@@ -1,8 +1,9 @@
 1
-Living
-You are standing in the living room. there is a tv right in front of you and the couch. there are many things
-to look at throughout the room.
-You can go WEST
+Entrance
+You have entered through the gateway of
+the temple. As you walk to the door north of you, the sun fills the space, showing you dead bodies and their weapons on both sides of the room. You looked nervously, knowing you’re not the first to the quest.
+What would you like to do?
+You can go North
 ----
 2
 Kitchen
