@@ -60,15 +60,3 @@ You walk through the door to see a wide room filled with vines and moss. You see
 What would you like to do?
 You can go NORTH or SOUTH
 ----
-10
-ShopKeeper 2
-Hello there, your back at the Shop Keep! You look like you have seen better days.
-What would you like to do?
-You can go WEST or SOUTH or EAST
-----
-11
-Cast of Darkness
-You open the door to see the room is in complete darkness.
-What would you like to do?
-You can go EAST 
-----
