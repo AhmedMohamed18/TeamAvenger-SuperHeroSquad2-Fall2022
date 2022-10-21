@@ -60,3 +60,9 @@ You walk through the door to see a wide room filled with vines and moss. You see
 What would you like to do?
 You can go NORTH or SOUTH
 ----
+9
+Death by Fire
+You walk through the door to see a wide room filled with vines and moss. You see a trap door filled with fire in the middle of the room.
+What would you like to do?
+You can go NORTH or SOUTH
+----
