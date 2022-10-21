@@ -41,3 +41,8 @@ space with light letting you see the door in front of you and some gold coins.
 What would you like to do?
 You can go SOUTH or EAST
 ----
+7
+Cast of Dimly
+You walk through the door to a room that is dimly lit. Though the small light, you can see the room cover with moss all around. What would you like to do?
+What would you like to do?
+You can go NORTH or SOUTH
