@@ -93,3 +93,17 @@ front of you.
 What would you like to do?
 You can go NORTH
 ----
+15
+Vampire Raider’s Layer
+You walk through the door to a room that is dimly lit. Though with small light, you can still the room cover in moss and blood all around with a monster in
+front of you.
+What would you like to do?
+You can go WEST OR NORTH
+----
+16
+Skeleton King Layer
+You walk through the door to a room that is dimly lit. Though with small light, you can still the room cover in moss, blood, and bones all around with a monster in
+front of you.
+What would you like to do?
+You can go WEST OR NORTH
+----
