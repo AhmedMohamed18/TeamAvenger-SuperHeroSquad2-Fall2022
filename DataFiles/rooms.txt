@@ -79,3 +79,17 @@ gloomier room with moss and debris along the side of the walls. There is a monst
 What would you like to do?
 You can go WEST
 ----
+13
+The Key to Everything
+You teleported to a dimmer,
+gloomier room filled with moss and debris along the walls. There is a door east of you, and south of you.
+What would you like to do?
+You can go SOUTH or EAST
+----
+14
+Bandit Captain’s Layer
+You walk through the door to a room that is dimly lit. Though with small light, you can see the room cover in moss all around with a monster in
+front of you.
+What would you like to do?
+You can go NORTH
+----
