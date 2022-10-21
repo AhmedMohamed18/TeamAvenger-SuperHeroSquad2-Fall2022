@@ -98,12 +98,36 @@ Vampire Raider’s Layer
 You walk through the door to a room that is dimly lit. Though with small light, you can still the room cover in moss and blood all around with a monster in
 front of you.
 What would you like to do?
-You can go WEST OR NORTH
+You can go WEST or NORTH
 ----
 16
 Skeleton King Layer
 You walk through the door to a room that is dimly lit. Though with small light, you can still the room cover in moss, blood, and bones all around with a monster in
 front of you.
 What would you like to do?
-You can go WEST OR NORTH
+You can go WEST or NORTH
+----
+17
+Skeleton King Layer
+You teleported to a dimmer, gloomier room filled with moss and debris along the walls. There is a door east of you, south of you, and north of you.
+What would you like to do?
+You can go WEST or EAST or NORTH or SOUTH
+----
+18
+Death by Arrows
+You walk through the door to see a wide room that is filled with moss and some dirt around the room. There are arrow traps along the wall.
+What would you like to do?
+You can go NORTH or SOUTH
+----
+19
+ShopKeeper 3
+Hello there, your back to the Shop Keep! You look like you ready to fight the boss!
+What would you like to do?
+You can go NORTH or SOUTH
+----
+20
+Lords of Dragon’s layer
+You walk through the final room. You pan around to a bunch of dead bodies around the final monster. The monster gives you a deathly smirk as you gulp
+nervously while putting your guard up. What would you like to do?
+You can go SOUTH
 ----
