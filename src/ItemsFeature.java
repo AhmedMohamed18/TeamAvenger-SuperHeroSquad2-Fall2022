@@ -1,3 +1,3 @@
-public class ItemsFeature
-{
+public class ItemsFeature {
+
 }
