@@ -1,15 +1,18 @@
-public class Items
-{
+public class Items {
+
+    private String itemName;
+    private String itemDesc;
+
     private int itemValue;
     private String name;
     private String description;
-    private static String location;
+    private static String room;
 
-    public Items(String gName, String gDescription, String glocation)
+    public Items(String gName, String gDescription, String gRoom)
     {
         this.name = gName;
         this.description = gDescription;
-        this.location = glocation;
+        this.room = gRoom;
     }
 
     public void Item(String name, String descrip, String location)
@@ -26,17 +29,17 @@ public class Items
     {
         return name;
     }
-    public String getLocation()
+    public String getRoom()
     {
-        return location;
+        return room;
     }
     public String getDescription()
     {
         return description;
     }
-    public void setLocation(String location)
+    public void setRoom(String room)
     {
-        location = location;
+        room = room;
     }
     public void setDescription(String description)
     {
