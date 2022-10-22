@@ -1,22 +1,21 @@
-public class Items {
-
-    private int itemValue;
+public class Items
+{
+    private int itemID;
     private String name;
     private String description;
     private static String room;
 
-    public Items(String gName, String gDescription, String gRoom)
+    public Items(String tName, String tDescription, String tRoom)
     {
-        this.name = gName;
-        this.description = gDescription;
-        this.room = gRoom;
+        this.name = tName;
+        this.description = tDescription;
+        this.room = tRoom;
     }
-
-    public void Item(String name, String descrip, String location)
+    public void Item(String name, String descrip, String room)
     {
         name = name;
         description = descrip;
-        location = location;
+        room = room;
     }
     public void look()
     {
@@ -46,12 +45,12 @@ public class Items {
     {
         name = name;
     }
-    public int getValue()
+    public int getID()
     {
-        return itemValue;
+        return itemID;
     }
-    public void setValue(int value)
+    public void setID(int gID)
     {
-        itemValue = value;
+        this.itemID = gID;
     }
 }
