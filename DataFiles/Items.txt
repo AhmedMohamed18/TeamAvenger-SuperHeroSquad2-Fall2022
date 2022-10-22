@@ -1,0 +1,19 @@
+Great Hammer - First weapon in the game, player can use it to attack monsters
+Key - Will unlock rooms and chest
+Gold coins - Item to use to trade with shop keeper
+Crystal Ball - Item 1 to combine to seal final monster
+Book of beast - A book that explains all monsters in dungeon
+Berries (consumable) - Food that player can consume for health boost
+Teleportation Potion - Allows player to teleport to the room next adjacent to them
+Divine Revival Elixir - Item 2 to combine to seal final monster
+Mirror of Truth - Item 3 to combine to seal final monster
+Diamond Sword - A weapon UPGRADE
+Knight’s Crest Shield - A weapon to block monster attacks
+Sealant of Monsters - 3 items combined to create monster sealant 
+
+
+
+
+
+
+
