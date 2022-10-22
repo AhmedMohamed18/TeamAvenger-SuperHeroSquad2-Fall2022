@@ -3,7 +3,7 @@ public class Items {
     private String itemName;
     private String itemDesc;
 
-    private int itemID;
+    private int itemValue;
     private String name;
     private String description;
     private static String room;
