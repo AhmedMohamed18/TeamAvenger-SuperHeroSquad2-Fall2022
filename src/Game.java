@@ -3,6 +3,11 @@ import java.io.FileNotFoundException;
 import java.util.*;
 
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.*;
+
+
 /*
  * @author of Class: Ahmed Mohamed
  *
@@ -10,7 +15,7 @@ import java.util.*;
 public class Game {
 
     private Room root = null;
-
+    private PuzzleFeature puzzleFeature;
     /**
      * Method: getData
      * Method to load the rooms data into data structure and create the connection between all rooms.
@@ -20,13 +25,15 @@ public class Game {
      * @author of method: Ahmed Mohamed
      *
      * */
-    public void getData (String roomsFile, String connectionFile)
+    public void getData (String roomsFile, String connectionFile, String puzzleFile)
     {
         try {
             Scanner roomData = new Scanner(new File(roomsFile));
             Scanner connectionFiles = new Scanner(new File(connectionFile));
+            Scanner puzzleData = new Scanner(new File(puzzleFile));
 
             List<Room> rooms = new ArrayList<>();
+            List<Puzzle> puzzles = new ArrayList<>();
 
             while (roomData.hasNextLine())
             {
@@ -55,15 +62,29 @@ public class Game {
 
                 getRoomById(rooms,current).setRoomAtDirection(direction,getRoomById(rooms,next));
             }
+
+            while (puzzleData.hasNext()) {
+                int roomId = Integer.parseInt(puzzleData.nextLine());
+                String puzzleQue = puzzleData.nextLine();
+                String puzzleAns = puzzleData.nextLine();
+                String puzzleHint = puzzleData.nextLine();
+                int room = Integer.parseInt(puzzleData.nextLine());
+                String difficulty = puzzleData.nextLine();
+                Puzzle puzzle = new Puzzle(roomId, puzzleQue, puzzleAns, puzzleHint, room, difficulty);
+                puzzles.add(puzzle);
+            }
+
+            puzzleFeature=new PuzzleFeature(puzzles);
+
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
 
     }
-            /*
-            * @author of method: Ahmed Mohamed
-            *
-            * */
+    /*
+     * @author of method: Ahmed Mohamed
+     *
+     * */
     public Room getRoomById(List<Room> rooms, int id){
         for(Room currentRoom : rooms){
             if(currentRoom.getNumber() == id){
@@ -87,7 +108,7 @@ public class Game {
                 "You can navigate by using the entire direction or just the first letter.\n"  +
                 "To exit(X) the game, enter X\n");
 
-
+//        showPuzzleOfRoom(5);
         Room current = root;
         Scanner scanner = new Scanner(System.in);
         System.out.println(current);
@@ -111,6 +132,7 @@ public class Game {
             if(room!=null)
             {
                 current = room;
+                showPuzzleOfRoom(current.getNumber());
                 System.out.println(current);
                 current.setVisited();
                 System.out.print("What would you like to do? ");
@@ -126,8 +148,27 @@ public class Game {
 
     }
 
-
+    void showPuzzleOfRoom(int room){
+        if(room==5){
+            puzzleFeature.showPuzzle("Solve puzzle to kill monster");
+        } else if (room==7) {
+            puzzleFeature.showPuzzle("Solve puzzle to boost health");
+        } else if (room==9) {
+            puzzleFeature.showPuzzle("Solve puzzle to dodge fire trap");
+        } else if (room==11) {
+            puzzleFeature.showPuzzle("Solve puzzle for dark room");
+        } else if (room==13) {
+            puzzleFeature.showPuzzle("Solve puzzle for extra life");
+        } else if (room==17) {
+            puzzleFeature.showPuzzle("Solve puzzle to pick up item");
+        } else if (room==18) {
+            puzzleFeature.showPuzzle("Solve puzzle to dodge arrow trap");
+        } else if (room==20) {
+            puzzleFeature.showPuzzle("Solve puzzle to kill final monster");
+        }
+    }
 
 
 
 }
+
