@@ -12,8 +12,6 @@ public class Monster
     private ArrayList<Collectible> itemPouch = new ArrayList<Collectible>();
     private String catagory;
 
-    public class Monster()
-    {
 	super.setName("Ana");
 	super.setCurrentHealth(100);
 	super.setMaxHealthPoints(100);
