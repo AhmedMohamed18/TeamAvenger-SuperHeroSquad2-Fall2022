@@ -1,17 +1,75 @@
-Great Hammer - First weapon in the game, player can use it to attack monsters
-Key - Will unlock rooms and chest
-Gold coins - Item to use to trade with shop keeper
-Crystal Ball - Item 1 to combine to seal final monster
-Book of beast - A book that explains all monsters in dungeon
-Berries (consumable) - Food that player can consume for health boost
-Teleportation Potion - Allows player to teleport to the room next adjacent to them
-Divine Revival Elixir - Item 2 to combine to seal final monster
-Mirror of Truth - Item 3 to combine to seal final monster
-Diamond Sword - A weapon UPGRADE
-Knight’s Crest Shield - A weapon to block monster attacks
-Sealant of Monsters - 3 items combined to create monster sealant 
-
-
+1
+Great Hammer
+First weapon in the game, player can use it to attack monsters
+What would you like to do?
+You can PICK UP and ATTACK or DROP or EQUIP or UNEQUIP
+----
+2
+Key
+Will unlock rooms and chest
+What would you like to do?
+You can PICK UP or DROP or OPEN
+----
+3
+Gold coins
+Item to use to trade with shop keeper
+What would you like to do?
+You can PICK UP or USE or DROP
+----
+4
+Crystal Ball
+Item 1 to combine to seal final monster
+What would you like to do?
+You can PICK UP or TRADE or DROP or COMBINE
+----
+5
+Book of beast
+A book that explains all monsters in dungeon
+What would you like to do?
+You can PICK UP or DROP
+----
+6
+Berries (consumable)
+Food that player can consume for health boost
+What would you like to do?
+You can PICK UP or CONSUME or DROP
+----
+7
+Teleportation Potion
+Allows player to teleport to the room next adjacent to them
+What would you like to do?
+You can PICK UP or USE or DROP
+----
+8
+Divine Revival Elixir
+Item 2 to combine to seal final monster
+What would you like to do?
+You can PICK UP or DROP or COMBINE
+----
+9
+Mirror of Truth
+Item 3 to combine to seal final monster
+What would you like to do?
+You can PICK UP or DROP or COMBINE
+----
+10
+Diamond Sword
+A weapon UPGRADE
+What would you like to do?
+You can PICK UP or DROP or EQUIP or UNEQUIP
+----
+11
+Knight’s Crest Shield
+A weapon to block monster attacks
+What would you like to do?
+You can PICK UP or DROP or EQUIP or UNEQUIP
+----
+12
+Sealant of Monsters
+3 items combined to create monster sealant
+What would you like to do?
+You can COMBINE or SEAL
+----
 
 
 

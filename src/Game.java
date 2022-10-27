@@ -93,6 +93,70 @@ public class Game {
         }
         return null;
     }
+/*
+     * @author of method: Nero Dunmoye and Jessie Martin
+     *
+     * */
+    public Items getItemsById(List<Items> items, int ItemsID)
+    {
+        for(Items currentItems : items)
+        {
+            if(currentItems.getNumber() == ItemsID)
+            {
+                return currentItems;
+            }
+        }
+        return null;
+    }
+    public void getItemData(String itemsFile, String itemsCommandsFile) {
+        try {
+            Scanner itemData = new Scanner(new File(itemsFile));
+            Scanner itemCommandsFiles = new Scanner(new File(itemsCommandsFile));
+
+            List<Room> rooms = new ArrayList<>();
+            List<Items> items = new ArrayList<>();
+            try {
+                while (itemData.hasNextLine())
+                {
+                    int id = Integer.parseInt(itemData.nextLine());
+                    String name = itemData.nextLine();
+                    String description = itemData.nextLine();
+
+                    getItemsById(items,id).getName();
+                    getItemsById(items,id).getDescription();
+                    getItemsById(items,id).getNumber();
+
+                    String line = itemData.nextLine();
+
+                    while (!line.equals("----")) {
+                        description += line + "\n";
+                        line = itemData.nextLine();
+                    }
+                    items.add(new Items(id, name, description));
+                }
+            }
+            catch (Exception e)
+            {
+                System.out.println("Error in items file");
+            }
+            try {
+                while (itemCommandsFiles.hasNextLine()) {
+                    String[] connection = itemCommandsFiles.nextLine().split(" ");
+                    int current = Integer.parseInt(connection[0]);
+                    int next = Integer.parseInt(connection[2]);
+                    String direction = connection[1];
+                    if (root == null)
+                        root = getRoomById(rooms, current);
+
+                    getRoomById(rooms, current).setRoomAtDirection(direction, getRoomById(rooms, next));
+                }
+            } catch (Exception e) {
+                System.out.println("Error in items commands file");
+            }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+    }
     /**
      * Method: Start
      * Method to start the game. It handles all the operations and validations required in the game.
