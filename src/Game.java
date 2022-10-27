@@ -25,7 +25,7 @@ public class Game {
      * @author of method: Ahmed Mohamed
      *
      * */
-    public void getData (String roomsFile, String connectionFile, String puzzleFile)
+    public void getData (String roomsFile, String connectionFile, String puzzleFile, String itemsFile, String itemsCommandsFile)
     {
         try {
             Scanner roomData = new Scanner(new File(roomsFile));
