@@ -3,74 +3,73 @@ Great Hammer
 First weapon in the game, player can use it to attack monsters
 What would you like to do?
 You can PICK UP and ATTACK or DROP or EQUIP or UNEQUIP
-----
+1
 2
 Key
 Will unlock rooms and chest
 What would you like to do?
 You can PICK UP or DROP or OPEN
-----
 3
+4
 Gold coins
 Item to use to trade with shop keeper
 What would you like to do?
 You can PICK UP or USE or DROP
-----
+6
 4
 Crystal Ball
 Item 1 to combine to seal final monster
 What would you like to do?
 You can PICK UP or TRADE or DROP or COMBINE
-----
+8
 5
 Book of beast
 A book that explains all monsters in dungeon
 What would you like to do?
 You can PICK UP or DROP
-----
+10
 6
 Berries (consumable)
 Food that player can consume for health boost
 What would you like to do?
 You can PICK UP or CONSUME or DROP
-----
+4
 7
 Teleportation Potion
 Allows player to teleport to the room next adjacent to them
 What would you like to do?
 You can PICK UP or USE or DROP
-----
+9
 8
 Divine Revival Elixir
 Item 2 to combine to seal final monster
 What would you like to do?
 You can PICK UP or DROP or COMBINE
-----
+11
 9
 Mirror of Truth
 Item 3 to combine to seal final monster
 What would you like to do?
 You can PICK UP or DROP or COMBINE
-----
+14
 10
 Diamond Sword
 A weapon UPGRADE
 What would you like to do?
 You can PICK UP or DROP or EQUIP or UNEQUIP
-----
+17
 11
 Knight’s Crest Shield
 A weapon to block monster attacks
 What would you like to do?
 You can PICK UP or DROP or EQUIP or UNEQUIP
-----
+1
 12
 Sealant of Monsters
 3 items combined to create monster sealant
 What would you like to do?
 You can COMBINE or SEAL
-----
-
+19
 
 
 
