@@ -12,7 +12,6 @@ public class Monster extends Character
 	private ArrayList<Collectible> itemPouch = new ArrayList<Collectible>();
 	private String catagory;
 
-	public Monster()
 	{
 		super.setName(" Godzilla");
 		super.setCurrentHealth(100);
