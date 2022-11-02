@@ -1,41 +1,34 @@
 1
-Ana
-A foot wide, 30 feet long anaconda.
-Ana reads your mind and speaks to you. Ana puts bad thoughts in your head, and sometimes clues.
-Sharp Teeth
+Mummy
+They are servants of a lost and forgotten tomb awakened when the player enters the dungeon.
+The play will be able to move to room 3.
 -----
 2
-Harvey
-No eyes and dirty, rotten teeth hyena.
-Harvey laughs until you feel terror in the pit of your stomach.
-Laugh
+Ghoul
+An undead creature that had a curse placed on them when they were human. They feed on corpses or living flesh.
+The player will be able to move to room 6.
 -----
 3
-Freddy
-8 ft long, deep ocean scary fish.
-Freddy messes with electricity(lights) and  pours out water into the room from its mouth until you drown and eats you.
-Drowning capabilities
+Bandit Raider
+A robber or outlaw that typically operates in an isolated or lawless area, seeking treasure and riches.
+The player will be able to teleport to either room 13 or 17.
 -----
 4
-Odin
-White owl with scary deep daunting fixated eyes.
-Odin is constantly flying to be facing you, if you lock eyes with it, you die.
-Eyes
+Bandit Captain
+The captain of the band of robbers and outlaws that typically operates in an isolated or lawless area, seeking treasure and riches.
+The player will be able to get the 3rd sealant item Mirror of Truth.
 -----
 5
-Porter
-A panda but as a 6 foot slim man.
-Porter speaks and wants to fight like a psychotic angry human w/ coordination.
-Knife
+Vampire Raider
+An outlaw who succumbed to a vampiric bite, now forced to forever traversing these hallowed halls.
+The player will be able to move to room 13 or room 17 depending on which room the player gets teleported in.
 -----
 6
-Alli
-A fast hungry, skinned alligator.
-Alli has quick speed and sharp teeth , smells bad, and likes to crush bones.
-Teeth
+Skeleton King
+The undead remains of a powerful monarch who still seeks control over his domain.
+The player will get an extra life.
 -----
 7
-Marley
-A 7 feet tall deer.
-Marley likes to kick and to hit with antlers. He is frightening.
-Antlers
+Dragon Lord
+A fire breathing ancient wyvern that has made this dungeon his throne. He seeks to defend his territory at all costs.
+The player will win the entire game.
