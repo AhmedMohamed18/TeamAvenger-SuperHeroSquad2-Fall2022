@@ -68,4 +68,3 @@ class Puzzle {
         this.difficulty = difficulty;
     }
 }
-
