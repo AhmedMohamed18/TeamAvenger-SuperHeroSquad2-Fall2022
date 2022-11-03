@@ -10,7 +10,7 @@ The player will be able to move to room 6.
 -----
 3
 Bandit Raider
-A robber or outlaw that typically operates in an isolated or lawless area, seeking treasure and riches
+A robber or outlaw that typically operates in an isolated or lawless area, seeking treasure and riches..
 The player will be able to teleport to either room 13 or 17.
 -----
 4
