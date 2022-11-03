@@ -15,18 +15,14 @@ public class Room {
 
 	private boolean isVisited;
 
-    /*
-     * @author of method: Ahmed Mohamed
-     *
-     * */
-    public Room(int number, String name, String description )
-    {
-        this.number = number;
-        this.name = name;
-        this.description = description;
-        this.visited = false;
-        exits = new ArrayList<>();
-    }
+	private boolean hasMonster;
+
+	public Room(int id, String name, String description) {
+		this.id = id;
+		this.name = name;
+		this.description = description;
+		items = new ArrayList<>();
+	}
 
 	public void setItems(ArrayList<Items> items) {
 		this.items = items;
