@@ -1,146 +1,139 @@
 import java.util.ArrayList;
 
-import java.util.List;
-
-
-/*
- * @author of Class: Ahmed Mohamed
- *
- * */
 public class Room {
+	private int id;
+	private String name;
+	private String description;
+	private Room north;
+	private Room south;
+	private Room east;
+	private Room west;
 
-    private int number;
-    private String name;
-    private String description;
-    private boolean visited;
+	private ArrayList<Items> items;
 
-    List<Exit> exits;
+	private String itemActions;
 
+	private boolean isVisited;
 
-    /*
-     * @author of method: Ahmed Mohamed
-     *
-     * */
-    public Room(int number, String name, String description )
-    {
-        this.number = number;
-        this.name = name;
-        this.description = description;
-        this.visited = false;
-        exits = new ArrayList<>();
-    }
+	private boolean hasMonster;
 
-    /**
-     * Method: isVisited
-     * return current state of room was it already visited or not
-     */
-    /*
-     * @author of method: Ahmed Mohamed
-     *
-     * */
-    public boolean isVisited()
-    {
-        return visited;
-    }
+	public Room(int id, String name, String description) {
+		this.id = id;
+		this.name = name;
+		this.description = description;
+		items = new ArrayList<>();
+	}
 
-    /**
-     * Method: setVisited
-     * Set room status as it is already visited
-     */
-    /*
-     * @author of method: Ahmed Mohamed
-     *
-     * */
-    public void setVisited()
-    {
-        visited = true;
-    }
+	public void setItems(ArrayList<Items> items) {
+		this.items = items;
+	}
 
-    /**
-     * Method: setRoomAtDirection
-     * set the given room location at the given direction of current room
-     */
-    /*
-     * @author of method: Ahmed Mohamed
-     *
-     * */
-    public void setRoomAtDirection(String direction, Room room)
-    {
-        Exit newExit = new Exit(direction.toLowerCase().charAt(0), room);
-        exits.add(newExit);
-    }
+	public void setRoomAtDirection(String direction, Room roomById) {
+		if (direction.equalsIgnoreCase("North")) {
+			north = roomById;
+		} else if (direction.equalsIgnoreCase("South")) {
+			south = roomById;
+		} else if (direction.equalsIgnoreCase("East")) {
+			east = roomById;
+		} else if (direction.equalsIgnoreCase("West")) {
+			west = roomById;
+		}
+	}
 
-    /**
-     * Method: getRoomAtDirection
-     * Get the room located at given direction
-     */
-    /*
-     * @author of method: Ahmed Mohamed
-     *
-     * */
-    public Room getRoomAtDirection(char direction)
-    {
-        for(Exit currentExit : exits){
-            if(currentExit.getDirection() == direction){
-                return currentExit.getRoom();
-            }
-        }
-        return null;
-    }
+	public int getNumber()
+	{
+		return id;
+	}
 
+	public Room getRoomAtDirection(char input)
+	{
+		Room r;
+		if (input == 'N' || input == 'n') {
+			r = north;
+		} else if (input == 'S' || input == 's') {
+			r = south;
+		} else if (input == 'E' || input == 'e') {
+			r = east;
+		} else {
+			r = west;
+		}
+		return r;
+	}
 
-    /*
-     * @author of method: Ahmed Mohamed
-     *
-     * */
-    public int getNumber() {
-        return number;
-    }
+	public boolean isHasMonster()
+	{
+		return hasMonster;
+	}
 
+	public void setHasMonster(boolean hasMonster)
+	{
+		this.hasMonster = hasMonster;
+	}
 
-    public void setNumber(int number) {
-        this.number = number;
-    }
+	public void setItemActions(String action)
+	{
+		itemActions = itemActions + " " + action;
+	}
 
+	public void setVisited() {
+		isVisited = true;
+	}
 
-    public String getName() {
-        return name;
-    }
+	public boolean isVisited() {
+		return isVisited;
+	}
 
+	@Override
+	public String toString() {
+		return name + "\n" + description;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void addItem(Items item)
+	{
+		if (item == null) return;
+		this.items.add(item);
+	}
 
+	public boolean contains(Items item)
+	{
+		for (Items val: items)
+		{
+			if (val.getDescription().equals(item.getDescription()))
+				return true;
+		}
+		return false;
+	}
 
+	public String getDescription()
+	{
+		return description;
+	}
 
-    public String getDescription() {
-        return description;
-    }
+	public String getItemActions()
+	{
+		return itemActions;
+	}
 
+	public void setItemActions(String description, int id)
+	{
+		for (Items val: items)
+		{
+			if (val.getID() == id)
+			{
+				val.setRoomItems(val.getRoomItems() + " " +description);
+				System.out.println("Room: " + this.id + " " + val.getRoomItems());
+				return;
+			}
+		}
+	}
 
+	public ArrayList<Items> getItems()
+	{
+		return items;
+	}
 
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-
-    /**
-     * Method: toString
-     */
-    /*
-     * @author of method: Ahmed Mohamed
-     *
-     * */
-    public String toString()
-    {
-        String str = name;
-        if(!isVisited())
-            str += " Not ";
-        str+=" visited\n"+getDescription();
-
-        return str;
-    }
-
-
+	public void removeItem(Items item)
+	{
+		items.remove(item);
+	}
 }
