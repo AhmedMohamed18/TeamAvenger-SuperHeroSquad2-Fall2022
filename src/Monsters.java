@@ -118,4 +118,3 @@ public void recieveAttack(int attackValue)
 		//Method talk, attack
 
 		}
-		
