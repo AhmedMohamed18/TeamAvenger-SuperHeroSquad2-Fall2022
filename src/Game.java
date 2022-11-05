@@ -241,7 +241,9 @@ public class Game {
         System.out.print("Where would you like to go? ");
         input = scanner.next().toLowerCase().charAt(0);
         while (input != 'x') {
-
+            if (input == 'h'){
+                System.out.println("To move between rooms, follow the direction displayed");
+            }
             Room room = current.getRoomAtDirection(input);
 
 
