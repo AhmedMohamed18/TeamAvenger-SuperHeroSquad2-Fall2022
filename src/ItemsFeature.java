@@ -152,10 +152,10 @@ public class ItemsFeature
         for (Items rmItem : rmItems)
         {
             System.out.println(rmItem);
+            System.out.println("Press C when you are done");
             System.out.println("With these items you can: ");
             String s = showRoomCommand(room, rmItem);
             getCommand(rmItem);
-            System.out.println(s);
         }
     }
     public void viewItemCommand(String choice, Items item)
